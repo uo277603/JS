@@ -1,0 +1,45 @@
+/*001*/
+
+body {
+    font: 400 1.1em Tahoma, sans-serif;
+    background-color: #FFE6A7;
+}
+
+
+/*001*/
+
+h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 2em;
+    background-color: #6F1D1B;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+main{
+	display:grid;
+	
+	
+}
+
+a{
+	padding: 1em;
+	margin:1em;
+	border-style: solid;
+	border-radius: 1em;
+	border-color: #6F1D1B;
+	background-color:#FFE6A7;
+}
+
+
+/*001*/
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
