@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 3</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Ejercicio 3">
+    <meta name="keywords" content="JavaScript, orientación a objetos, práctica JavaScript, Uniovi, EII, calculadora básica">
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    <script src="CalculadoraBasica.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora Básica</h1>
+    <main>
+        <label for="pantalla">Pantalla</label>
+        <input id="pantalla" type="text" name="pantalla" disabled>
+        <label for="mrc">mrc</label>
+        <input id="mrc" type="button" name="memoria" value="mrc" onclick="calculadora.mrc()">
+        <label for="m-">m-</label>
+        <input id="m-" type="button" name="memoria" value="m-" onclick="calculadora.mMenos()">
+        <label for="m+">m+</label>
+        <input id="m+" type="button" name="memoria" value="m+" onclick="calculadora.mMas()">
+        <label for="/">/</label>
+        <input id="/" type="button" name="operacion" value="/" onclick="calculadora.division()">
+        <label for="7">7</label>
+        <input id="7" type="button" value="7" onclick="calculadora.digitos(7)">
+        <label for="8">8</label>
+        <input id="8" type="button" value="8" onclick="calculadora.digitos(8)">
+        <label for="9">9</label>
+        <input id="9" type="button" value="9" onclick="calculadora.digitos(9)">
+        <label for="*">*</label>
+        <input id="*" type="button" name="operacion" value="*" onclick="calculadora.multiplicacion()">
+        <label for="4">4</label>
+        <input id="4" type="button" value="4" onclick="calculadora.digitos(4)">
+        <label for="5">5</label>
+        <input id="5" type="button" value="5" onclick="calculadora.digitos(5)">
+        <label for="6">6</label>
+        <input id="6" type="button" value="6" onclick="calculadora.digitos(6)">
+        <label for="-">-</label>
+        <input id="-" type="button" name="operacion" value="-" onclick="calculadora.resta()">
+        <label for="1">1</label>
+        <input id="1" type="button" value="1" onclick="calculadora.digitos(1)">
+        <label for="2">2</label>
+        <input id="2" type="button" value="2" onclick="calculadora.digitos(2)">
+        <label for="3">3</label>
+        <input id="3" type="button" value="3" onclick="calculadora.digitos(3)">
+        <label for="+">+</label>
+        <input id="+" type="button" name="operacion" value="+" onclick="calculadora.suma()">
+        <label for="0">0</label>
+        <input id="0" type="button" value="0" onclick="calculadora.digitos(0)">
+        <label for=".">.</label>
+        <input id="." type="button" value="." onclick="calculadora.punto()">
+        <label for="C">C</label>
+        <input id="C" type="button" value="C" onclick="calculadora.borrar()">
+        <label for="=">=</label>
+        <input id="=" type="button" value="=" onclick="calculadora.igual()">
+    </main>
+    <footer>
+        <p>Daniel Ferreira Gómez - UO277603</p>
+        <p>Universidad de Oviedo - Software y Estándares para la Web</p>
+        <img src="uniovi.png" alt="Uniovi" />
+    </footer>
+</body>
+
+</html>

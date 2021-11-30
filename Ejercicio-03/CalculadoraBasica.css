@@ -1,0 +1,104 @@
+/*001*/
+
+body {
+    background-color: burlywood;
+}
+
+
+/*001*/
+
+h1 {
+    text-align: center;
+}
+
+
+/*001*/
+
+footer {
+    text-align: center;
+}
+
+
+/*001*/
+
+main {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5% 5% 14% 14% 14% 14% 14%;
+    width: 20em;
+    height: 25em;
+    margin: 0 auto;
+    background-color: #1F2E37;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
+/*011*/
+
+input[type="text"] {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: black;
+    background-color: #A6D090;
+    border-radius: 0.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+/*001*/
+
+label {
+    display: none;
+}
+
+
+/*011*/
+
+input[type="button"] {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: black;
+    background-color: #A9C2D1;
+    border-radius: 0.8em;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[name="memoria"] {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #586A75;
+    border-radius: 0.8em;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+
+/*011*/
+
+input[name="operacion"] {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: black;
+    background-color: #ff0f0f;
+    border-radius: 0.8em;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+}
