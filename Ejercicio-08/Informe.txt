@@ -1,0 +1,1 @@
+utilizo pre para visualizar los json con un formato legible

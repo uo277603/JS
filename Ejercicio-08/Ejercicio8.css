@@ -1,0 +1,76 @@
+/*001*/
+
+body {
+    font: 400 1.1em Tahoma, sans-serif;
+    background-color: #FFE6A7;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+/*001*/
+
+h1 {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 2em;
+    background-color: #6F1D1B;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+
+/*001*/
+
+h2 {
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6em;
+    background-color: #6F1D1B;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5em
+}
+
+
+/*001*/
+
+footer {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+
+/*001*/
+
+input[type="button"] {
+    text-decoration: none;
+    padding: 0.5em;
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #ffffff;
+    background-color: #99582A;
+    border-radius: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    height: 3em;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+
+/*001*/
+
+label {
+    display: none;
+}
