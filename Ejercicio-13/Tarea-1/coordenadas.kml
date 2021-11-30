@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns = "http://www.opengis.net/kml/2.2" >
+<Document>
+    <name>Coordenadas.kml</name>
+<Placemark><name>Oviedo</name>
+<description>Lugar de nacimiento de Daniel Ferreira Gómez  en la fecha 2001-02-17</description>
+<Point><coordinates>-5.865222428398363,43.3566287880788,231</coordinates>
+</Point></Placemark>
+<Placemark><name>Cangas del Narcea</name>
+<description>Lugar de nacimiento de Ana Gómez Queipo  en la fecha 1972-11-16</description>
+<Point><coordinates>-6.545732163664058,43.17077905093749,396</coordinates>
+</Point></Placemark>
+<Placemark><name>Corias</name>
+<description>Lugar de nacimiento de Eliseo Gómez Queipo  en la fecha 1934-09-03</description>
+<Point><coordinates>-6.544276560821895,43.19403411420001,396</coordinates>
+</Point></Placemark>
+<Placemark><name>Cangas del Narcea</name>
+<description>Lugar de fallecimiento de Eliseo Gómez Queipo  en la fecha 2010-09-20</description><Point><coordinates>-6.541639575504574,43.16615417212205,396</coordinates>
+</Point></Placemark>
+<Placemark><name>Gijon</name>
+<description>Lugar de nacimiento de Fernando Gómez Freije  en la fecha 1901-04-11</description>
+<Point><coordinates>-5.60753593258297,43.52528430608339,7</coordinates>
+</Point></Placemark>
+<Placemark><name>Oviedo</name>
+<description>Lugar de fallecimiento de Fernando Gómez Freije  en la fecha 1970-08-21</description><Point><coordinates>-5.827910050741643,43.37576999676267,232</coordinates>
+</Point></Placemark>
+<Placemark><name>Aviles</name>
+<description>Lugar de nacimiento de Concepción Fernández Fernández  en la fecha 1902-05-19</description>
+<Point><coordinates>-5.936096831654482,43.55250307536649,8</coordinates>
+</Point></Placemark>
+<Placemark><name>Mieres</name>
+<description>Lugar de fallecimiento de Concepción Fernández Fernández  en la fecha 1972-10-11</description><Point><coordinates>-5.781229875822586,43.2259530149405,386</coordinates>
+</Point></Placemark>
+<Placemark><name>Cangas del Narcea</name>
+<description>Lugar de nacimiento de Imelda Queipo Sanchez  en la fecha 1943-10-15</description>
+<Point><coordinates>-6.541246792354767,43.16531342280633,396</coordinates>
+</Point></Placemark>
+<Placemark><name>Luarca</name>
+<description>Lugar de nacimiento de Ángeles Sanchez Piniella  en la fecha 1919-01-18</description>
+<Point><coordinates>-6.518541208173381,43.534524993893505,40</coordinates>
+</Point></Placemark>
+<Placemark><name>Langreo</name>
+<description>Lugar de fallecimiento de Ángeles Sanchez Piniella  en la fecha 1987-06-19</description><Point><coordinates>-5.675269862619048,43.29246147070432,1021</coordinates>
+</Point></Placemark>
+<Placemark><name>Ribadeo</name>
+<description>Lugar de nacimiento de Manuel Queipo Estrada  en la fecha 1918-03-19</description>
+<Point><coordinates>-7.0447111080694285,43.53654498080565,42</coordinates>
+</Point></Placemark>
+<Placemark><name>Vegadeo</name>
+<description>Lugar de fallecimiento de Manuel Queipo Estrada  en la fecha 1982-02-03</description><Point><coordinates>-7.052220628385111,43.46169429732062,9</coordinates>
+</Point></Placemark>
+<Placemark><name>Ermelo</name>
+<description>Lugar de nacimiento de Jose Ferreira Pimenta  en la fecha 1964-05-01</description>
+<Point><coordinates>-7.888244742425589,41.35990668415572,321</coordinates>
+</Point></Placemark>
+<Placemark><name>Coimbra</name>
+<description>Lugar de nacimiento de Urbano Alves Pimenta  en la fecha 1919-01-18</description>
+<Point><coordinates>-8.412568295066256,40.221114826366346,43</coordinates>
+</Point></Placemark>
+<Placemark><name>Mondim</name>
+<description>Lugar de fallecimiento de Urbano Alves Pimenta  en la fecha 2001-05-28</description><Point><coordinates>-7.888244742425589,41.35990668415572,321</coordinates>
+</Point></Placemark>
+<Placemark><name>Coimbra</name>
+<description>Lugar de nacimiento de Timoteo Alves Pinto  en la fecha 1900-07-21</description>
+<Point><coordinates>-8.407799597382752,40.220321340661236,43</coordinates>
+</Point></Placemark>
+<Placemark><name>Ermelo</name>
+<description>Lugar de fallecimiento de Timoteo Alves Pinto  en la fecha 1969-04-07</description><Point><coordinates>-7.888661156191295,41.358600195877315,321</coordinates>
+</Point></Placemark>
+<Placemark><name>Amarante</name>
+<description>Lugar de nacimiento de Telma Bravo Pimenta  en la fecha 1903-03-03</description>
+<Point><coordinates>-8.077354327357813,41.27348704612802,160</coordinates>
+</Point></Placemark>
+<Placemark><name>Amarante</name>
+<description>Lugar de fallecimiento de Telma Bravo Pimenta  en la fecha 2001-05-28</description><Point><coordinates>-8.070813039681086,41.26636352663051,160</coordinates>
+</Point></Placemark>
+<Placemark><name>Oporto</name>
+<description>Lugar de nacimiento de Hirminia Ferreira Sousa  en la fecha 1925-08-22</description>
+<Point><coordinates>-8.599521174101104,41.18273256696743,104</coordinates>
+</Point></Placemark>
+<Placemark><name>Ermelo</name>
+<description>Lugar de fallecimiento de Hirminia Ferreira Sousa  en la fecha 2004-03-20</description><Point><coordinates>-7.887632219715919,41.36060781671029,321</coordinates>
+</Point></Placemark>
+<Placemark><name>Burdeos</name>
+<description>Lugar de nacimiento de Victor Ferreira Ribeiro  en la fecha 1915-07-02</description>
+<Point><coordinates>-0.5786411729927559,44.863669165541495,6</coordinates>
+</Point></Placemark>
+<Placemark><name>Oporto</name>
+<description>Lugar de fallecimiento de Victor Ferreira Ribeiro  en la fecha 1972-04-04</description><Point><coordinates>-8.591567665881579,41.105861637476906,104</coordinates>
+</Point></Placemark>
+<Placemark><name>Braga</name>
+<description>Lugar de nacimiento de Catarina Sousa Costa  en la fecha 1915-10-18</description>
+<Point><coordinates>-8.39831165517396,41.56811665476475,215</coordinates>
+</Point></Placemark>
+<Placemark><name>Oporto</name>
+<description>Lugar de fallecimiento de Catarina Sousa Costa  en la fecha 1985-11-21</description><Point><coordinates>-8.592144800438884,41.103848256482515,104</coordinates>
+</Point></Placemark>
+</Document></kml>

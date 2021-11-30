@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "arbol.dtd"> 
+<personas>
+
+<persona nombre="Daniel" apellidos="Ferreira Gómez">
+<datos>
+    <fechaNacimiento>2001-02-17</fechaNacimiento>
+    <lugarNacimiento>Oviedo</lugarNacimiento>
+    <coordenadasNacimiento>
+		<longitud>-5.865222428398363</longitud>
+		<latitud>43.3566287880788</latitud>
+		<altitud>231</altitud>
+	</coordenadasNacimiento>
+	<foto>dani.jpg</foto>
+	<video>dani.mp4</video>
+	<comentario>Estudiante en la Uniovi</comentario>
+	<comentario>Reside en Oviedo</comentario>
+</datos>
+    <persona nombre="Ana" apellidos="Gómez Queipo">
+		<datos>
+        <fechaNacimiento>1972-11-16</fechaNacimiento>
+        <lugarNacimiento>Cangas del Narcea</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-6.545732163664058</longitud>
+			<latitud>43.17077905093749</latitud>
+			<altitud>396</altitud>
+		</coordenadasNacimiento>
+		<foto>Ana.jpg</foto>
+		<video>Ana.mp4</video>
+		<comentario>Trabaja como administrativa</comentario>
+		</datos>
+
+		<persona nombre="Eliseo" apellidos="Gómez Queipo">
+		<datos>
+        <fechaNacimiento>1934-09-03</fechaNacimiento>
+        <lugarNacimiento>Corias</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-6.544276560821895</longitud>
+			<latitud>43.19403411420001</latitud>
+			<altitud>396</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>2010-09-20</fechaFallecimiento>
+		<lugarFallecimiento>Cangas del Narcea</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-6.541639575504574</longitud>
+			<latitud>43.16615417212205</latitud>
+			<altitud>396</altitud>
+		</coordenadasFallecimiento>
+		<foto>Eliseo.jpg</foto>
+		<video>Eliseo.mp4</video>
+		<comentario>Trabajó de minero como su padre</comentario>
+		</datos>
+
+		<persona nombre="Fernando" apellidos="Gómez Freije">
+		<datos>
+        <fechaNacimiento>1901-04-11</fechaNacimiento>
+        <lugarNacimiento>Gijon</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-5.60753593258297</longitud>
+			<latitud>43.52528430608339</latitud>
+			<altitud>7</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>1970-08-21</fechaFallecimiento>
+		<lugarFallecimiento>Oviedo</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-5.827910050741643</longitud>
+			<latitud>43.37576999676267</latitud>
+			<altitud>232</altitud>
+		</coordenadasFallecimiento>
+		<foto>Fernando.jpg</foto>
+		<video>Fernando.mp4</video>
+		<comentario>Minero desde los 15 años</comentario>
+		</datos>
+    
+    	</persona>
+
+		<persona nombre="Concepción" apellidos="Fernández Fernández">
+		<datos>
+        <fechaNacimiento>1902-05-19</fechaNacimiento>
+        <lugarNacimiento>Aviles</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-5.936096831654482</longitud>
+			<latitud>43.55250307536649</latitud>
+			<altitud>8</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>1972-10-11</fechaFallecimiento>
+		<lugarFallecimiento>Mieres</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-5.781229875822586</longitud>
+			<latitud>43.2259530149405</latitud>
+			<altitud>386</altitud>
+		</coordenadasFallecimiento>
+		<foto>Concepcion.jpg</foto>
+		<video>Concepcion.mp4</video>
+		<comentario>Trabajó como comadrona</comentario>
+		</datos>
+    
+    	</persona>
+    
+    	</persona>
+
+	<persona nombre="Imelda" apellidos="Queipo Sanchez">
+		<datos>
+        <fechaNacimiento>1943-10-15</fechaNacimiento>
+        <lugarNacimiento>Cangas del Narcea</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-6.541246792354767</longitud>
+			<latitud>43.16531342280633</latitud>
+			<altitud>396</altitud>
+		</coordenadasNacimiento>
+		<foto>Imelda.jpg</foto>
+		<video>Imelda.mp4</video>
+		<comentario>Desde niña dibuja en acuarela</comentario>
+		</datos>
+		
+		<persona nombre="Ángeles" apellidos="Sanchez Piniella">
+		<datos>
+        <fechaNacimiento>1919-01-18</fechaNacimiento>
+        <lugarNacimiento>Luarca</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-6.518541208173381</longitud>
+			<latitud>43.534524993893505</latitud>
+			<altitud>40</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>1987-06-19</fechaFallecimiento>
+		<lugarFallecimiento>Langreo</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-5.675269862619048</longitud>
+			<latitud>43.29246147070432</latitud>
+			<altitud>1021</altitud>
+		</coordenadasFallecimiento>
+		<foto>Angeles.jpg</foto>
+		<video>Angeles.mp4</video>
+		<comentario>Tenía una tienda de costura</comentario>
+		</datos>
+    
+    </persona>
+
+	<persona nombre="Manuel" apellidos="Queipo Estrada">
+		<datos>
+        <fechaNacimiento>1918-03-19</fechaNacimiento>
+        <lugarNacimiento>Ribadeo</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-7.0447111080694285</longitud>
+			<latitud>43.53654498080565</latitud>
+			<altitud>42</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>1982-02-03</fechaFallecimiento>
+		<lugarFallecimiento>Vegadeo</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-7.052220628385111</longitud>
+			<latitud>43.46169429732062</latitud>
+			<altitud>9</altitud>
+		</coordenadasFallecimiento>
+		<foto>Manuel.jpg</foto>
+		<video>Manuel.mp4</video>
+		<comentario>Trabajó en una central eléctrica</comentario>
+		</datos>
+    
+    </persona>
+    
+    </persona>
+    
+    </persona>
+
+    <persona nombre="Jose" apellidos="Ferreira Pimenta">
+		<datos>
+        <fechaNacimiento>1964-05-01</fechaNacimiento>
+        <lugarNacimiento>Ermelo</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-7.888244742425589</longitud>
+			<latitud>41.35990668415572</latitud>
+			<altitud>321</altitud>
+		</coordenadasNacimiento>
+		<foto>Jose.jpg</foto>
+		<video>Jose.mp4</video>
+		<comentario>Se fue de Portugal a los 15 años</comentario>
+		<comentario>30 años siendo alabañil</comentario>
+		</datos>
+
+		<persona nombre="Urbano" apellidos="Alves Pimenta">
+		<datos>
+        <fechaNacimiento>1919-01-18</fechaNacimiento>
+        <lugarNacimiento>Coimbra</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-8.412568295066256</longitud>
+			<latitud>40.221114826366346</latitud>
+			<altitud>43</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>2001-05-28</fechaFallecimiento>
+		<lugarFallecimiento>Mondim</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-7.888244742425589</longitud>
+			<latitud>41.35990668415572</latitud>
+			<altitud>321</altitud>
+		</coordenadasFallecimiento>
+		<foto>Urbano.jpg</foto>
+		<video>Urbano.mp4</video>
+		<comentario>Alquilaba terrenos</comentario>
+		</datos>
+
+		<persona nombre="Timoteo" apellidos="Alves Pinto">
+		<datos>
+        <fechaNacimiento>1900-07-21</fechaNacimiento>
+        <lugarNacimiento>Coimbra</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-8.407799597382752</longitud>
+			<latitud>40.220321340661236</latitud>
+			<altitud>43</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>1969-04-07</fechaFallecimiento>
+		<lugarFallecimiento>Ermelo</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-7.888661156191295</longitud>
+			<latitud>41.358600195877315</latitud>
+			<altitud>321</altitud>
+		</coordenadasFallecimiento>
+		<foto>Timoteo.jpg</foto>
+		<video>Timoteo.mp4</video>
+		<comentario>Era ganadero en un pueblo</comentario>
+		</datos>
+    
+    </persona>
+
+	<persona nombre="Telma" apellidos="Bravo Pimenta">
+		<datos>
+        <fechaNacimiento>1903-03-03</fechaNacimiento>
+        <lugarNacimiento>Amarante</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-8.077354327357813</longitud>
+			<latitud>41.27348704612802</latitud>
+			<altitud>160</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>2001-05-28</fechaFallecimiento>
+		<lugarFallecimiento>Amarante</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-8.070813039681086</longitud>
+			<latitud>41.26636352663051</latitud>
+			<altitud>160</altitud>
+		</coordenadasFallecimiento>
+		<foto>Telma.jpg</foto>
+		<video>Telma.mp4</video>
+		<comentario>Trabajaba como médica</comentario>
+		</datos>
+    
+    </persona>
+    
+    </persona>
+
+	<persona nombre="Hirminia" apellidos="Ferreira Sousa">
+		<datos>
+        <fechaNacimiento>1925-08-22</fechaNacimiento>
+        <lugarNacimiento>Oporto</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-8.599521174101104</longitud>
+			<latitud>41.18273256696743</latitud>
+			<altitud>104</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>2004-03-20</fechaFallecimiento>
+		<lugarFallecimiento>Ermelo</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-7.887632219715919</longitud>
+			<latitud>41.36060781671029</latitud>
+			<altitud>321</altitud>
+		</coordenadasFallecimiento>
+		<foto>Hirminia.jpg</foto>
+		<video>Hirminia.mp4</video>
+		<comentario>Cocinaba muy bien</comentario>
+		</datos>
+
+		<persona nombre="Victor" apellidos="Ferreira Ribeiro">
+		<datos>
+        <fechaNacimiento>1915-07-02</fechaNacimiento>
+        <lugarNacimiento>Burdeos</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-0.5786411729927559</longitud>
+			<latitud>44.863669165541495</latitud>
+			<altitud>6</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>1972-04-04</fechaFallecimiento>
+		<lugarFallecimiento>Oporto</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-8.591567665881579</longitud>
+			<latitud>41.105861637476906</latitud>
+			<altitud>104</altitud>
+		</coordenadasFallecimiento>
+		<foto>Victor.jpg</foto>
+		<video>Victor.mp4</video>
+		<comentario>Se mudó a Portugal muy pronto</comentario>
+		</datos>
+    
+    </persona>
+
+	<persona nombre="Catarina" apellidos="Sousa Costa">
+		<datos>
+        <fechaNacimiento>1915-10-18</fechaNacimiento>
+        <lugarNacimiento>Braga</lugarNacimiento>
+        <coordenadasNacimiento>
+			<longitud>-8.39831165517396</longitud>
+			<latitud>41.56811665476475</latitud>
+			<altitud>215</altitud>
+		</coordenadasNacimiento>
+		<fechaFallecimiento>1985-11-21</fechaFallecimiento>
+		<lugarFallecimiento>Oporto</lugarFallecimiento>
+		<coordenadasFallecimiento>
+			<longitud>-8.592144800438884</longitud>
+			<latitud>41.103848256482515</latitud>
+			<altitud>104</altitud>
+		</coordenadasFallecimiento>
+		<foto>Catarina.jpg</foto>
+		<video>Catarina.mp4</video>
+		<comentario>Se dedicaba a la vendimia del vino</comentario>
+		</datos>
+    
+    </persona>
+    
+    </persona>
+    
+    </persona>
+
+</persona>
+</personas>

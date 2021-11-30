@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 13 - Tarea 2</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Ejercicio 13 - Tarea 2">
+    <meta name="keywords" content="JavaScript, orientación a objetos, práctica JavaScript, Uniovi, EII, API Google Maps, GeoJSON">
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="MapaGeoJSON.css" />
+    <script type="module" src="https://js.api.here.com/v3/3.1/mapsjs.bundle.js"></script>
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwKRpqP_Y229CxhNZM9jer_tjVY15ZurM&amp;callback=gestor.initMap">
+    </script>
+    <script src="MapaGeoJSON.js"></script>
+
+</head>
+
+<body>
+    <h1>Ejercicio 13 - Tarea 2</h1>
+    <label for="archivoTexto">Leer archivo</label>
+    <input type="file" id="archivoTexto" onchange="gestor.leerArchivosTexto(this.files)">
+    <main id="mapa"></main>
+    <footer>
+        <p>Daniel Ferreira Gómez - UO277603</p>
+        <p>Universidad de Oviedo - Software y Estándares para la Web</p>
+        <img src="uniovi.png" alt="Uniovi" />
+    </footer>
+</body>
+
+</html>

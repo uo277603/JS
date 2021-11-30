@@ -1,0 +1,266 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {"name": "Oviedo","marker-color":"blue"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.865222428398363,43.3566287880788
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Cangas del Narcea","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.545732163664058,43.17077905093749
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Corias","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.544276560821895,43.19403411420001
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Cangas del Narcea","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.541639575504574,43.16615417212205
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Gijón","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.60753593258297,43.52528430608339
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Oviedo","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.827910050741643,43.37576999676267
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Avilés","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.936096831654482,43.55250307536649
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Mieres","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.781229875822586,43.2259530149405
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Cangas del Narcea","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.541246792354767,43.16531342280633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Luarca","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.518541208173381,43.534524993893505
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Langreo","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -5.675269862619048,43.29246147070432
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Ribadeo","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.0447111080694285,43.53654498080565
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Vegadeo","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.052220628385111,43.46169429732062
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Ermelo","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.888244742425589,41.35990668415572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Coimbra","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.412568295066256,40.221114826366346
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Mondim","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.888244742425589,41.35990668415572
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Coimbra","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.407799597382752,40.220321340661236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Ermelo","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.888661156191295,41.358600195877315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Amarante","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.077354327357813,41.27348704612802
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Amarante","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.070813039681086,41.26636352663051
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Oporto","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.599521174101104,41.18273256696743
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Ermelo","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -7.887632219715919,41.36060781671029
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Burdeos","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.5786411729927559,44.863669165541495
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Oporto","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.591567665881579,41.105861637476906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Braga","marker-color":"blue"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.39831165517396,41.56811665476475
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {"name": "Oporto","marker-color":"red"},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -8.592144800438884,41.103848256482515
+          ]
+        }
+      }
+    ]
+  }

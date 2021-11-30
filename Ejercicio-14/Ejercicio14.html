@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 14</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Ejercicio 14">
+    <meta name="keywords" content="JavaScript, orientación a objetos, práctica JavaScript, Uniovi, EII, XML, API SVG HTML5, API FILE HTML5, API Drag and Drop, KML">
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio14.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio14.js"></script>
+</head>
+
+<body>
+    <h1>Representación del árbol genealógico en SVG</h1>
+
+    <main ondrop="ejercicio14.drop(event)" ondragover="ejercicio14.dragover(event)">
+        <p>Arrastra el fichero XML para procesarlo</p>
+    </main>
+    <label for="archivoTexto">Selecciona un archivo</label>
+    <input type="file" id="archivoTexto" onchange="ejercicio14.leerXml(this.files)">
+    <label for="mostrar">Mostrar SVG</label>
+    <input type="button" id="mostrar" value="Mostrar SVG" onclick="ejercicio14.procesar()">
+    <footer>
+        <p>Daniel Ferreira Gómez - UO277603</p>
+        <p>Universidad de Oviedo - Software y Estándares para la Web</p>
+        <img src="uniovi.png" alt="Uniovi" />
+    </footer>
+</body>
+
+</html>
