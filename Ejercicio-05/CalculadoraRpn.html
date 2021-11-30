@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 5</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Ejercicio 5">
+    <meta name="keywords" content="JavaScript, orientación a objetos, práctica JavaScript, Uniovi, EII, calculadora RPN, calculadora notación postfija">
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraRpn.css" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraRpnMedia.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="CalculadoraRpn.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora RPN</h1>
+    <main>
+        <label for="pantalla">Pantalla</label>
+        <textarea id="pantalla" cols="15" rows="6" name="pantalla" disabled></textarea>
+        <label for="sin">sin</label>
+        <input id="sin" type="button" name="aritmetico" value="sin" onclick="calculadora.sin()">
+        <label for="cos">cos</label>
+        <input id="cos" type="button" name="aritmetico" value="cos" onclick="calculadora.cos()">
+        <label for="tan">tan</label>
+        <input id="tan" type="button" name="aritmetico" value="tan" onclick="calculadora.tan()">
+        <label for="/">/</label>
+        <input id="/" type="button" name="operacion" value="/" onclick="calculadora.division()">
+        <label for="arcsin">arcsin</label>
+        <input id="arcsin" type="button" name="aritmetico" value="arcsin" onclick="calculadora.arcsin()">
+        <label for="arccos">arccos</label>
+        <input id="arccos" type="button" name="aritmetico" value="arccos" onclick="calculadora.arccos()">
+        <label for="arctan">arctan</label>
+        <input id="arctan" type="button" name="aritmetico" value="arctan" onclick="calculadora.arctan()">
+        <label for="+">+</label>
+        <input id="+" type="button" name="operacion" value="+" onclick="calculadora.suma()">
+        <label for="7">7</label>
+        <input id="7" type="button" value="7" onclick="calculadora.digitos(7)">
+        <label for="8">8</label>
+        <input id="8" type="button" value="8" onclick="calculadora.digitos(8)">
+        <label for="9">9</label>
+        <input id="9" type="button" value="9" onclick="calculadora.digitos(9)">
+        <label for="-">-</label>
+        <input id="-" type="button" name="operacion" value="-" onclick="calculadora.resta()">
+        <label for="4">4</label>
+        <input id="4" type="button" value="4" onclick="calculadora.digitos(4)">
+        <label for="5">5</label>
+        <input id="5" type="button" value="5" onclick="calculadora.digitos(5)">
+        <label for="6">6</label>
+        <input id="6" type="button" value="6" onclick="calculadora.digitos(6)">
+        <label for="*">*</label>
+        <input id="*" type="button" name="operacion" value="*" onclick="calculadora.multiplicacion()">
+        <label for="1">1</label>
+        <input id="1" type="button" value="1" onclick="calculadora.digitos(1)">
+        <label for="2">2</label>
+        <input id="2" type="button" value="2" onclick="calculadora.digitos(2)">
+        <label for="3">3</label>
+        <input id="3" type="button" value="3" onclick="calculadora.digitos(3)">
+        <label for="raiz">raiz</label>
+        <input id="raiz" type="button" name="operacion" value="√" onclick="calculadora.sqrt()">
+        <label for="pop">pop</label>
+        <input id="pop" type="button" value="POP" onclick="calculadora.pop()">
+        <label for="0">0</label>
+        <input id="0" type="button" value="0" onclick="calculadora.digitos(0)">
+        <label for=".">.</label>
+        <input id="." type="button" value="." onclick="calculadora.digitos('.')">
+        <label for="enter">enter</label>
+        <input id="enter" type="button" name="Enter" value="Enter" onclick="calculadora.push()">
+    </main>
+    <article>
+        <h2>Guía de uso</h2>
+        <p>
+            Una calculadora RPN funciona sobre una pila de números (literalmente los números se apilan unos encima de otros). Pulsando la tecla Enter se van apilando los número escritos en pantlla. A diferencia de una calculadora tradicional, en una RPN primero van
+            los números y luego las operaciones.
+        </p>
+        <p>
+            Por ejemplo, para apliar el número 10, se escribe el número y se presiona Enter (en la pantalla se va mostrando la pila, mostrando el último número introducido arriba del todo). Si se quiere apilar otro número encima se escribe otro, por ejemplo el 5
+            y se presiona de nuevo Enter. Ahora tendrás una pila de números de la siguiente forma:
+        </p>
+        <p>
+            5
+        </p>
+        <p>
+            10
+        </p>
+        <p>
+            En una pila el primer número en salir es el que está encima del todo (en este caso el 5), así, si se quisiera eliminar dicho elemento se podría hacer pulsando el botón POP. Ten en cuenta que este botón cambia a DEL en el momento que se escriba un número.
+        </p>
+        <p>
+            Las operaciones como + - / * funcionan con los últimos dos números que han sido apilados. Partiendo de la pila que teníamos antes (Enter 5 Enter 10) podemos realizar una suma simplemente dándole al botón correspondiente. Tanto el 5 como el 10 serán desapilados
+            y quedará en la pila el resultado de la suma.
+        </p>
+        <p>
+            Finalmente, las operaciones científicas trabajan solo con el último número apilado. Es decir, en cuanto se haga Enter 6 por ejemplo, ya podremos realizar cualquiera de esas operaciones.
+        </p>
+    </article>
+    <footer>
+
+        <p>Daniel Ferreira Gómez - UO277603</p>
+        <p>Universidad de Oviedo - Software y Estándares para la Web</p>
+        <img src="uniovi.png" alt="Uniovi" />
+    </footer>
+</body>
+
+</html>

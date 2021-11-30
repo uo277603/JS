@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 6</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Ejercicio 6">
+    <meta name="keywords" content="JavaScript, orientación a objetos, práctica JavaScript, Uniovi, EII, calculadora matemática avanzada">
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraEspecializada.css" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraEspecializadaMedia.css" />
+    <script src="CalculadoraEspecializada.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora Matemática Avanzada</h1>
+    <main>
+        <label for="pantalla">Pantalla</label>
+        <textarea id="pantalla" cols="15" rows="6" name="pantalla" disabled></textarea>
+        <label for="x">x</label>
+        <input id="x" type="button" value="X" onclick="calculadora.x()">
+        <label for="sin">sin</label>
+        <input id="sin" type="button" name="aritmetico" value="sin" onclick="calculadora.sin()">
+        <label for="cos">cos</label>
+        <input id="cos" type="button" name="aritmetico" value="cos" onclick="calculadora.cos()">
+        <label for="tan">tan</label>
+        <input id="tan" type="button" name="aritmetico" value="tan" onclick="calculadora.tan()">
+        <label for="/">/</label>
+        <input id="/" type="button" name="operacion" value="/" onclick="calculadora.division()">
+        <label for="xcuadrado">xcuadrado</label>
+        <input id="xcuadrado" type="button" value="X²" onclick="calculadora.xCuadrado()">
+        <label for="arcsin">arcsin</label>
+        <input id="arcsin" type="button" name="aritmetico" value="arcsin" onclick="calculadora.arcsin()">
+        <label for="arccos">arccos</label>
+        <input id="arccos" type="button" name="aritmetico" value="arccos" onclick="calculadora.arccos()">
+        <label for="arctan">arctan</label>
+        <input id="arctan" type="button" name="aritmetico" value="arctan" onclick="calculadora.arctan()">
+        <label for="+">+</label>
+        <input id="+" type="button" name="operacion" value="+" onclick="calculadora.suma()">
+        <label for="integral">integral</label>
+        <input id="integral" type="button" name="avanzado" value="∫dx" onclick="calculadora.integrate()">
+        <label for="7">7</label>
+        <input id="7" type="button" value="7" onclick="calculadora.digitos(7)">
+        <label for="8">8</label>
+        <input id="8" type="button" value="8" onclick="calculadora.digitos(8)">
+        <label for="9">9</label>
+        <input id="9" type="button" value="9" onclick="calculadora.digitos(9)">
+        <label for="-">-</label>
+        <input id="-" type="button" name="operacion" value="-" onclick="calculadora.resta()">
+        <label for="derivada">derivada</label>
+        <input id="derivada" type="button" name="avanzado" value="d/dx" onclick="calculadora.derivate()">
+        <label for="4">4</label>
+        <input id="4" type="button" value="4" onclick="calculadora.digitos(4)">
+        <label for="5">5</label>
+        <input id="5" type="button" value="5" onclick="calculadora.digitos(5)">
+        <label for="6">6</label>
+        <input id="6" type="button" value="6" onclick="calculadora.digitos(6)">
+        <label for="*">*</label>
+        <input id="*" type="button" name="operacion" value="*" onclick="calculadora.multiplicacion()">
+        <label for="sumatorio">sumatorio</label>
+        <input id="sumatorio" type="button" name="avanzado" value="Σ" onclick="calculadora.sumatorio()">
+        <label for="1">1</label>
+        <input id="1" type="button" value="1" onclick="calculadora.digitos(1)">
+        <label for="2">2</label>
+        <input id="2" type="button" value="2" onclick="calculadora.digitos(2)">
+        <label for="3">3</label>
+        <input id="3" type="button" value="3" onclick="calculadora.digitos(3)">
+        <label for="pop">pop</label>
+        <input id="pop" type="button" value="Pop" onclick="calculadora.pop()">
+        <label for="0">0</label>
+        <input id="0" type="button" value="0" onclick="calculadora.digitos(0)">
+        <label for=".">.</label>
+        <input id="." type="button" value="." onclick="calculadora.digitos('.')">
+        <label for="del">del</label>
+        <input id="del" type="button" value="DEL" onclick="calculadora.del()">
+        <label for="enter">enter</label>
+        <input id="enter" type="button" name="Enter" value="Enter" onclick="calculadora.push()">
+    </main>
+    <article>
+        <h2>Guía de uso</h2>
+        <p>La calculadora trabaja con funciones, es decir, todo número que se meta a la pila es una función. Por tanto las operaciones básicas solo sirven para poder crear distintas funciones. A continuación se muestra cómo utilizar las funciones complejas:</p>
+        <ul>
+            <li>
+                X: añade a la pila la función f(x) = x.
+            </li>
+            <li>
+                X²: añade a la pila la función f(x) = x².
+            </li>
+            <li>
+                ∫dx: calcula la integral definida entre dos puntos. El orden es:
+                <ol>
+                    <li>
+                        Funcion a integrar
+                    </li>
+                    <li>
+                        Límite inferior a.
+                    </li>
+                    <li>
+                        Límite superior b.
+                    </li>
+                </ol>
+            </li>
+            <li>
+                ∫dx: calcula la derivada de una función en un punto concreto. El orden es:
+                <ol>
+                    <li>
+                        Función a derivar.
+                    </li>
+                    <li>Punto a evaluar.</li>
+                </ol>
+            </li>
+            <li>
+                Σ: calcula el sumatorio de una función dada. El orden es:
+                <ol>
+                    <li>
+                        Función a evaluar.
+                    </li>
+                    <li>
+                        Punto i desde donde empieza.
+                    </li>
+                    <li>
+                        Punto k donde acaba.
+                    </li>
+                </ol>
+            </li>
+        </ul>
+    </article>
+    <footer>
+        <p>Daniel Ferreira Gómez - UO277603</p>
+        <p>Universidad de Oviedo - Software y Estándares para la Web</p>
+        <img src="uniovi.png" alt="Uniovi" />
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 4</title>
+    <meta name="author" content="Daniel Ferreira Gómez">
+    <meta name="description" content="Ejercicio 4">
+    <meta name="keywords" content="JavaScript, orientación a objetos, práctica JavaScript, Uniovi, EII, calculadora científica">
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+
+<body>
+    <h1>Calculadora Científica</h1>
+    <main>
+        <label for="pantalla">Pantalla</label>
+        <input id="pantalla" type="text" name="pantalla" disabled>
+        <aside>
+            <label for="rad">rad</label>
+            <input id="rad" type="button" value="RAD" onclick="calculadora.rad()">
+        </aside>
+        <label for="MC">MC</label>
+        <input id="MC" type="button" name="memoria" value="MC" onclick="calculadora.mc()">
+        <label for="MR">MR</label>
+        <input id="MR" type="button" name="memoria" value="MR" onclick="calculadora.mr()">
+        <label for="M+">M+</label>
+        <input id="M+" type="button" name="memoria" value="M+" onclick="calculadora.mMas()">
+        <label for="M-">M-</label>
+        <input id="M-" type="button" name="memoria" value="M-" onclick="calculadora.mMenos()">
+        <label for="MS">MS</label>
+        <input id="MS" type="button" name="memoria" value="MS" onclick="calculadora.ms()">
+        <section>
+            <h2>Funciones trigonometricas</h2>
+            <label for="trigonometria">trigonometria</label>
+            <input id="trigonometria" type="button" value="Trigonometría ↓" onclick="calculadora.showMenu()">
+            <section id="dropdown">
+                <h2>Menu</h2>
+                <label for="shift2">shift2</label>
+                <input id="shift2" type="button" value="↑" onclick="calculadora.shift2()">
+                <label for="sen">sen</label>
+                <input id="sen" type="button" value="sen" onclick="calculadora.seno()">
+                <label for="cos">cos</label>
+                <input id="cos" type="button" value="cos" onclick="calculadora.coseno()">
+                <label for="tan">tan</label>
+                <input id="tan" type="button" value="tan" onclick="calculadora.tangente()">
+                <label for="hyp">hyp</label>
+                <input id="hyp" type="button" value="hyp" onclick="calculadora.hyp()">
+                <label for="sec">sec</label>
+                <input id="sec" type="button" value="sec" onclick="calculadora.sec()">
+                <label for="csc">csc</label>
+                <input id="csc" type="button" value="csc" onclick="calculadora.csc()">
+                <label for="cot">cot</label>
+                <input id="cot" type="button" value="cot" onclick="calculadora.cot()">
+            </section>
+        </section>
+        <label for="shift1">shift1</label>
+        <input id="shift1" type="button" value="↑" onclick="calculadora.shift1()">
+        <label for="pi">pi</label>
+        <input id="pi" type="button" value="π" onclick="calculadora.pi()">
+        <label for="e">d</label>
+        <input id="e" type="button" value="e" onclick="calculadora.e()">
+        <label for="C">C</label>
+        <input id="C" type="button" value="C" onclick="calculadora.borrar()">
+        <label for="borrar">borrar</label>
+        <input id="borrar" type="button" value="←" onclick="calculadora.borrarUltimo()">
+        <label for="alCuadrado">alCuadrado</label>
+        <input id="alCuadrado" type="button" value="x²" onclick="calculadora.alCuadrado()">
+        <label for="inverso">inverso</label>
+        <input id="inverso" type="button" value="1/x" onclick="calculadora.invertir()">
+        <label for="abs">abs</label>
+        <input id="abs" type="button" value="|x|" onclick="calculadora.abs()">
+        <label for="exp">exp</label>
+        <input id="exp" type="button" value="exp" onclick="calculadora.exp()">
+        <label for="mod">mod</label>
+        <input id="mod" type="button" value="mod" onclick="calculadora.mod()">
+        <label for="sqrt">sqrt</label>
+        <input id="sqrt" type="button" value="√" onclick="calculadora.sqrt()">
+        <label for="(">(</label>
+        <input id="(" type="button" value="(" onclick="calculadora.parentesis('(')">
+        <label for=")">)</label>
+        <input id=")" type="button" value=")" onclick="calculadora.parentesis(')')">
+        <label for="fact">fact</label>
+        <input id="fact" type="button" value="n!" onclick="calculadora.fact()">
+        <label for="/">/</label>
+        <input id="/" type="button" value="÷" onclick="calculadora.division()">
+        <label for="potencia">potencia</label>
+        <input id="potencia" type="button" value="xʸ" onclick="calculadora.potencia()">
+        <label for="7">7</label>
+        <input id="7" type="button" name="numero" value="7" onclick="calculadora.digitos(7)">
+        <label for="8">8</label>
+        <input id="8" type="button" name="numero" value="8" onclick="calculadora.digitos(8)">
+        <label for="9">9</label>
+        <input id="9" type="button" name="numero" value="9" onclick="calculadora.digitos(9)">
+        <label for="*">*</label>
+        <input id="*" type="button" value="*" onclick="calculadora.multiplicacion()">
+        <label for="potenciaBase10">potenciaBase10</label>
+        <input id="potenciaBase10" type="button" value="10ˣ" onclick="calculadora.exp10()">
+        <label for="4">4</label>
+        <input id="4" type="button" name="numero" value="4" onclick="calculadora.digitos(4)">
+        <label for="5">5</label>
+        <input id="5" type="button" name="numero" value="5" onclick="calculadora.digitos(5)">
+        <label for="6">6</label>
+        <input id="6" type="button" name="numero" value="6" onclick="calculadora.digitos(6)">
+        <label for="-">-</label>
+        <input id="-" type="button" value="-" onclick="calculadora.resta()">
+        <label for="log">log</label>
+        <input id="log" type="button" value="log" onclick="calculadora.log()">
+        <label for="1">1</label>
+        <input id="1" type="button" name="numero" value="1" onclick="calculadora.digitos(1)">
+        <label for="2">2</label>
+        <input id="2" type="button" name="numero" value="2" onclick="calculadora.digitos(2)">
+        <label for="3">3</label>
+        <input id="3" type="button" name="numero" value="3" onclick="calculadora.digitos(3)">
+        <label for="+">+</label>
+        <input id="+" type="button" value="+" onclick="calculadora.suma()">
+        <label for="ln">ln</label>
+        <input id="ln" type="button" value="ln" onclick="calculadora.ln()">
+        <label for="masmenos">masmenos</label>
+        <input id="masmenos" type="button" name="numero" value="∓" onclick="calculadora.masmenos()">
+        <label for="0">0</label>
+        <input id="0" type="button" name="numero" value="0" onclick="calculadora.digitos(0)">
+        <label for=".">.</label>
+        <input id="." type="button" name="numero" value="." onclick="calculadora.punto()">
+        <label for="=">=</label>
+        <input id="=" type="button" value="=" onclick="calculadora.igual()">
+    </main>
+    <footer>
+        <p>Daniel Ferreira Gómez - UO277603</p>
+        <p>Universidad de Oviedo - Software y Estándares para la Web</p>
+        <img src="uniovi.png" alt="Uniovi" />
+    </footer>
+</body>
+
+</html>
